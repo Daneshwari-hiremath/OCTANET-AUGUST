@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Meta tags for character set and viewport settings -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="A ToDo list app for managing tasks, setting reminders, and improving productivity. Features include task adding, editing, complete, and delete. Tasks are also saved in the local storage, so they persist even after the page is refreshed."
+    />
+    <meta
+      name="keywords"
+      content="task management, to-do list, task tracking, reminders, due dates, prioritization,  completed tasks, task scheduling, checklists, local storage, data persistence, task edit, task delete,  responsive, web app, accessibility, html, css, JavaScript"
+    />
+
+    <!-- Page title -->
+    <title>Task</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- FontAwesome for icons -->
+    <script
+      src="https://kit.fontawesome.com/15f5fbfbce.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Main container for tasks -->
+    <div class="task-container">
+      <h1>Tasks</h1>
+      <!-- Form for adding new tasks -->
+      <form id="task-form">
+        <input type="text" id="task-input" placeholder="Create a new Task..." />
+        <button id="add-btn" type="submit">Add</button>
+      </form>
+      <!-- Unordered list to hold tasks -->
+      <ul id="tasks"></ul>
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
